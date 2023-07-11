@@ -9,7 +9,7 @@ const Tab = createBottomTabNavigator();
 function AppNavigator() {
   return (
     <NavigationContainer>
-      <Tab.Navigator>
+      <Tab.Navigator initialRouteName="ToDoList">
         <Tab.Screen name="ToDoList" component={ToDoListScreen} />
         <Tab.Screen name="Settings" component={SettingsScreen} />
       </Tab.Navigator>
