@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 const TodoListScreen = () => {
   return (
     <View>
-      <Text>ToDo List</Text>
+      <Text></Text>
     </View>
   );
 };
